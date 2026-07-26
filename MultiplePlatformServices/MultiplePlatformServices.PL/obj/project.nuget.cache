@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rXNQLoQ9ssk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CRC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\CRC\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
