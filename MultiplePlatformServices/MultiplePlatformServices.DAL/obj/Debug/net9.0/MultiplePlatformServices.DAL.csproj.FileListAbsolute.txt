@@ -1,0 +1,15 @@
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\bin\Debug\net9.0\MultiplePlatformServices.DAL.deps.json
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\bin\Debug\net9.0\MultiplePlatformServices.DAL.runtimeconfig.json
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\bin\Debug\net9.0\MultiplePlatformServices.DAL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\bin\Debug\net9.0\MultiplePlatformServices.DAL.pdb
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.csproj.AssemblyReference.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.AssemblyInfoInputs.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.AssemblyInfo.cs
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.csproj.CoreCompileInputs.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.sourcelink.json
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\refint\MultiplePlatformServices.DAL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.pdb
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\MultiplePlatformServices.DAL.genruntimeconfig.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.DAL\obj\Debug\net9.0\ref\MultiplePlatformServices.DAL.dll

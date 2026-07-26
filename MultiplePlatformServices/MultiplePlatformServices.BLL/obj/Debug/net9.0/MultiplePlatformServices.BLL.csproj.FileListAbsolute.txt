@@ -1,0 +1,16 @@
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\bin\Debug\net9.0\MultiplePlatformServices.BLL.deps.json
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\bin\Debug\net9.0\MultiplePlatformServices.BLL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\bin\Debug\net9.0\MultiplePlatformServices.BLL.pdb
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\bin\Debug\net9.0\MultiplePlatformServices.DAL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\bin\Debug\net9.0\MultiplePlatformServices.DAL.pdb
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.csproj.AssemblyReference.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.AssemblyInfoInputs.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.AssemblyInfo.cs
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.csproj.CoreCompileInputs.cache
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.sourcelink.json
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\Multiple.1F157E97.Up2Date
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\refint\MultiplePlatformServices.BLL.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\MultiplePlatformServices.BLL.pdb
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.BLL\obj\Debug\net9.0\ref\MultiplePlatformServices.BLL.dll
