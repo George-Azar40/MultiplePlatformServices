@@ -11,5 +11,6 @@ namespace MultiplePlatformServices.BLL.Services.Interfaces
     public interface IAuthenticationService
     {
         Task<RegisterResponse> RegisterAsync(RegisterRequest request);
+        Task<bool> confirmEmailAsync(string token , string id);
     }
 }

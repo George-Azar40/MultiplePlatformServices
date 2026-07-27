@@ -9,8 +9,8 @@ namespace MultiplePlatformServices.DAL.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        public String FullName { get; set; }
-        public String? City { get; set; }
-        public String? Street { get; set; }
+        public string FullName { get; set; }
+        public string? City { get; set; }
+        public string? Street { get; set; }
     }
 }

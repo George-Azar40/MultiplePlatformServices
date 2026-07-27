@@ -173,3 +173,5 @@ C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Serv
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Mapster.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Mapster.Core.dll

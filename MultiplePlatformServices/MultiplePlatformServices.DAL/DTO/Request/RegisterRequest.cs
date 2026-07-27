@@ -15,11 +15,11 @@ namespace MultiplePlatformServices.DAL.DTO.Request
     }
     public class RegisterRequest
     {
-        public String UserName { get; set; }
-        public String Email { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
         public UserRole Role { get; set; }
-        public String Password { get; set; }
-        public String PhoneNumber { get; set; }
-        public String FullName { get; set; }
+        public string Password { get; set; }
+        public string PhoneNumber { get; set; }
+        public string FullName { get; set; }
     }
 }

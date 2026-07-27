@@ -26,6 +26,9 @@ namespace MultiplePlatformServices.BLL.Services
             _userManager = userManager;
             _emailSender = emailSender;
         }
+
+       
+
         public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
 
@@ -34,18 +37,45 @@ namespace MultiplePlatformServices.BLL.Services
 
             if (!result.Succeeded)
             {
-                return new RegisterResponse { Success = false , Message = "Error" };
+                return new RegisterResponse
+                {
+                    Success = false,
+                    Message = string.Join(", ", result.Errors.Select(e => e.Description))
+                };
             }
 
             await _userManager.AddToRoleAsync(user, request.Role.ToString());
 
             //make an endpoint into the controller then get its URL ... var emailURL = ""
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            token = Uri.EscapeDataString(token);
+
+            var emailURL = $"https://localhost:7191/api/Account/confirm?token={token}&id={user.Id}";
             await _emailSender.SendEmailAsync(
                 user.Email,
                 "Welcome",
-                $"<h1>Welcome {request.UserName}</h1>" + """<a href="">confirm</a>"""
+                $"<h1>Welcome {request.UserName}</h1>" + $"""<a href="{emailURL}">confirm</a>"""
                 );
-            return null;
+
+            return new RegisterResponse { Success = true, Message = "Register Success" };
         }
+
+
+        public async Task<bool> confirmEmailAsync(string token, string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if(user is null)
+            {
+                return false;
+            }
+
+            var result = await _userManager.ConfirmEmailAsync(user,token);
+            if (!result.Succeeded)
+            {
+                return false;
+            }
+            return true;
+        }
+
     }
 }

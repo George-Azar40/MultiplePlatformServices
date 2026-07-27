@@ -18,7 +18,7 @@ namespace MultiplePlatformServices.DAL.Utilities
         }
         public async Task DataSeed()
         {
-            String []roles = ["Admin" , "User" , "Vendor" , "Freelancer"];
+            string []roles = ["Admin" , "User" , "Vendor" , "Freelancer"];
             if(!await _roleManager.Roles.AnyAsync())
             {
                 foreach(var role in roles)

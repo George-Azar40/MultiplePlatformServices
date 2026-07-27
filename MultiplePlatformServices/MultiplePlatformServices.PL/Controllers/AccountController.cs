@@ -23,5 +23,15 @@ namespace MultiplePlatformServices.PL.Controllers
             return Ok(result);
         }
 
+        [HttpGet("confirm")]
+        public async Task<IActionResult> ConfirmEmail(string token,string id)
+        {
+            var isConfirmed =await _authenticationService.confirmEmailAsync(token, id);
+            return Ok(new
+            {
+                message = "Your email Successfully Confirmed"
+            });
+        }
+
     }
 }
