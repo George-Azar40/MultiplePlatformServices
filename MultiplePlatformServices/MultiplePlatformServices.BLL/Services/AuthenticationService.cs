@@ -32,6 +32,16 @@ namespace MultiplePlatformServices.BLL.Services
         public async Task<RegisterResponse> RegisterAsync(RegisterRequest request)
         {
 
+            var existingUser = await _userManager.FindByEmailAsync(request.Email);
+            if (existingUser != null)
+            {
+                return new RegisterResponse
+                {
+                    Success = false,
+                    Message = "Email already exists"
+                };
+            }
+
             var user = request.Adapt<ApplicationUser>();
             var result = await _userManager.CreateAsync(user, request.Password);
 
@@ -44,6 +54,7 @@ namespace MultiplePlatformServices.BLL.Services
                 };
             }
 
+
             await _userManager.AddToRoleAsync(user, request.Role.ToString());
 
             //make an endpoint into the controller then get its URL ... var emailURL = ""
@@ -52,10 +63,39 @@ namespace MultiplePlatformServices.BLL.Services
 
             var emailURL = $"https://localhost:7191/api/Account/confirm?token={token}&id={user.Id}";
             await _emailSender.SendEmailAsync(
-                user.Email,
-                "Welcome",
-                $"<h1>Welcome {request.UserName}</h1>" + $"""<a href="{emailURL}">confirm</a>"""
-                );
+            user.Email,
+            "Confirm Your Email",
+            $@"
+            <div style='max-width:600px; margin:40px auto; padding:40px; 
+                        background:#ffffff; font-family:Arial,sans-serif; 
+                        text-align:center; border-radius:12px;'>
+        
+                <h1 style='color:#2563eb;'>
+                    Welcome to Multiple Platform Services, {request.UserName} 👋
+                </h1>
+
+                <p style='color:#555; font-size:16px;'>
+                    Thank you for creating an account with us!
+                </p>
+
+                <p style='color:#555; font-size:16px;'>
+                    Please confirm your email address to activate your account.
+                </p>
+
+                <a href='{emailURL}'
+                   style='display:inline-block; margin-top:20px; 
+                          padding:14px 30px; background:#2563eb; 
+                          color:white; text-decoration:none; 
+                          border-radius:8px; font-weight:bold;'>
+                    Confirm My Email
+                </a>
+
+                <p style='color:#999; font-size:13px; margin-top:30px;'>
+                    If you did not create this account, you can safely ignore this email.
+                </p>
+
+            </div>"
+               );
 
             return new RegisterResponse { Success = true, Message = "Register Success" };
         }
@@ -77,5 +117,61 @@ namespace MultiplePlatformServices.BLL.Services
             return true;
         }
 
+        public async Task<LoginResponse> LoginAsync(LoginRequest request)
+        {
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if(user is null)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "Error"
+                };
+            }
+            var result = await _userManager.CheckPasswordAsync(user,request.Password);
+            if (!result)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "Wrong Email or Password"
+                };
+            }
+
+            await _emailSender.SendEmailAsync(
+            request.Email,
+            "Security Alert - New Login Attempt",
+            $@"
+            <div style='max-width:600px; margin:40px auto; padding:40px; 
+                        background:#ffffff; font-family:Arial,sans-serif; 
+                        text-align:center; border-radius:12px; 
+                        box-shadow:0 4px 15px rgba(0,0,0,0.08);'>
+
+                <h1 style='color:#dc2626;'>
+                    Security Alert 🔐
+                </h1>
+
+                <p style='color:#333; font-size:18px;'>
+                    Someone tried to log in to your account.
+                </p>
+
+                <p style='color:#666; font-size:16px; line-height:1.6;'>
+                    If this was you, you can safely ignore this email.
+                    If you did not try to log in, please reset your password immediately.
+                </p>
+
+                <p style='color:#999; font-size:13px; margin-top:30px;'>
+                    This is an automated security notification from Multiple Platform Services.
+                </p>
+
+            </div>"
+             );
+
+            return new LoginResponse
+            {
+                Success = true,
+                Message = "Login Successfully Done"
+            };
+        }
     }
 }

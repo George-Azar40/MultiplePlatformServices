@@ -33,5 +33,17 @@ namespace MultiplePlatformServices.PL.Controllers
             });
         }
 
+        [HttpGet("login")]
+        public async Task<IActionResult> Login(LoginRequest request)
+        {
+            var result = await _authenticationService.LoginAsync(request);
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+
+        }
+
     }
 }

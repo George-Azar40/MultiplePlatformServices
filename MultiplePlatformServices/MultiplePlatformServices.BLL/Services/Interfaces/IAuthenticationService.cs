@@ -12,5 +12,6 @@ namespace MultiplePlatformServices.BLL.Services.Interfaces
     {
         Task<RegisterResponse> RegisterAsync(RegisterRequest request);
         Task<bool> confirmEmailAsync(string token , string id);
+        Task<LoginResponse> LoginAsync(LoginRequest request);
     }
 }
