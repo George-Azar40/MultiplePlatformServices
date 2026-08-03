@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiplePlatformServices.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c9c3cc86b5856222fa4de4b4d67cccbf56f17d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0b1210657f43eb168cc425bec35a2155cd19bd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiplePlatformServices.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiplePlatformServices.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
