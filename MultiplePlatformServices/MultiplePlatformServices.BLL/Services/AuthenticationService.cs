@@ -57,7 +57,6 @@ namespace MultiplePlatformServices.BLL.Services
 
             await _userManager.AddToRoleAsync(user, request.Role.ToString());
 
-            //make an endpoint into the controller then get its URL ... var emailURL = ""
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             token = Uri.EscapeDataString(token);
 
