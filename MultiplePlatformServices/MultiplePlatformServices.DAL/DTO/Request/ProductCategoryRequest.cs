@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MultiplePlatformServices.DAL.DTO.Request
 {
-    internal class ProductCategoryRequest
+    public class ProductCategoryRequest
     {
+        public string Name { get; set; } = null!;
+        public string? Description { get; set; }
     }
 }
