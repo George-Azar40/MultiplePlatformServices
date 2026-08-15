@@ -77,8 +77,10 @@ namespace MultiplePlatformServices.PL
             builder.Services.AddScoped<ICartRepository, CartRepository>();
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
+            builder.Services.AddScoped<IAddressRepository, AddressRepository>();
 
             builder.Services.AddScoped<IStoreService, StoreService>();
+            builder.Services.AddScoped<IAddressService, AddressService>();
            
 
             var app = builder.Build();

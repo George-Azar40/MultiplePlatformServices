@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MultiplePlatformServices.DAL.Models;
@@ -34,6 +34,7 @@ namespace MultiplePlatformServices.DAL.Data
         public DbSet<OrderItem> OrderItems { get; set; }
 
         public DbSet<ServiceOrder> ServiceOrders { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -190,6 +191,16 @@ namespace MultiplePlatformServices.DAL.Data
                 .WithMany()
                 .HasForeignKey(so => so.ServiceId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // =========================
+            // Address - User
+            // =========================
+
+            builder.Entity<Address>()
+                .HasOne(a => a.User)
+                .WithMany(u => u.Addresses)
+                .HasForeignKey(a => a.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

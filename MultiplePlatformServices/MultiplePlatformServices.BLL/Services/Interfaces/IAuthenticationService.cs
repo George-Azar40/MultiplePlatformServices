@@ -1,4 +1,4 @@
-﻿using MultiplePlatformServices.DAL.DTO.Request;
+using MultiplePlatformServices.DAL.DTO.Request;
 using MultiplePlatformServices.DAL.DTO.Response;
 using System;
 using System.Collections.Generic;
@@ -13,5 +13,7 @@ namespace MultiplePlatformServices.BLL.Services.Interfaces
         Task<RegisterResponse> RegisterAsync(RegisterRequest request);
         Task<bool> confirmEmailAsync(string token , string id);
         Task<LoginResponse> LoginAsync(LoginRequest request);
+        Task<UserProfileResponse?> GetUserProfileAsync(string userId);
+        Task<bool> UpdateUserProfileAsync(string userId, UpdateProfileRequest request);
     }
 }

@@ -6,6 +6,7 @@ using MultiplePlatformServices.BLL.Services.Interfaces;
 using MultiplePlatformServices.DAL.DTO.Request;
 using MultiplePlatformServices.DAL.DTO.Response;
 using MultiplePlatformServices.DAL.Models;
+using MultiplePlatformServices.DAL.Repository;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -21,17 +22,20 @@ namespace MultiplePlatformServices.BLL.Services
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IEmailSender _emailSender;
         private readonly IConfiguration _configuration;
+        private readonly IAddressRepository _addressRepository;
 
 
         public AuthenticationService(
             UserManager<ApplicationUser> userManager,
             IEmailSender emailSender,
-            IConfiguration configuration
+            IConfiguration configuration,
+            IAddressRepository addressRepository
             )
         {
             _userManager = userManager;
             _emailSender = emailSender;
             _configuration = configuration;
+            _addressRepository = addressRepository;
         }
 
         private async Task<string> GenerateJwtTokenAsync(ApplicationUser user)
@@ -217,6 +221,42 @@ namespace MultiplePlatformServices.BLL.Services
                 Email = user.Email,
                 Role = role
             };
+        }
+
+        public async Task<UserProfileResponse?> GetUserProfileAsync(string userId)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return null;
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var addresses = await _addressRepository.GetAllAsync(a => a.UserId == userId);
+
+            return new UserProfileResponse
+            {
+                Id = user.Id,
+                UserName = user.UserName ?? string.Empty,
+                Email = user.Email ?? string.Empty,
+                PhoneNumber = user.PhoneNumber,
+                FullName = user.FullName,
+                City = user.City,
+                Street = user.Street,
+                Addresses = addresses.Adapt<List<AddressResponse>>(),
+                Roles = roles.ToList()
+            };
+        }
+
+        public async Task<bool> UpdateUserProfileAsync(string userId, UpdateProfileRequest request)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return false;
+
+            user.FullName = request.FullName;
+            user.PhoneNumber = request.PhoneNumber;
+            user.City = request.City;
+            user.Street = request.Street;
+
+            var result = await _userManager.UpdateAsync(user);
+            return result.Succeeded;
         }
     }
 }
