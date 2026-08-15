@@ -19,10 +19,10 @@ namespace MultiplePlatformServices.DAL.Repository
             _context = context;
         }
 
-        public async Task<T> CreateAsync(T entity, CancellationToken cancellationToken)
+        public async Task<T> CreateAsync(T entity)
         {
-            await _context.AddAsync(entity , cancellationToken);
-            await _context.SaveChangesAsync(cancellationToken);
+            await _context.AddAsync(entity);
+            await _context.SaveChangesAsync();
             return entity;
         }
 

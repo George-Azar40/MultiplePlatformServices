@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MultiplePlatformServices.DAL.Repository.RepositoryInterfaces
 {
-    internal interface IServiceCategoryRepository : IGenericRepository<ServiceCategory>
+    public interface IServiceCategoryRepository : IGenericRepository<ServiceCategory>
     {
     }
 }

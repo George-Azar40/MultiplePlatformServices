@@ -1,12 +1,16 @@
-﻿using Mapster;
+using Mapster;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using MultiplePlatformServices.BLL.Services.Interfaces;
 using MultiplePlatformServices.DAL.DTO.Request;
 using MultiplePlatformServices.DAL.DTO.Response;
 using MultiplePlatformServices.DAL.Models;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,15 +20,48 @@ namespace MultiplePlatformServices.BLL.Services
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IEmailSender _emailSender;
+        private readonly IConfiguration _configuration;
 
 
         public AuthenticationService(
             UserManager<ApplicationUser> userManager,
-            IEmailSender emailSender
+            IEmailSender emailSender,
+            IConfiguration configuration
             )
         {
             _userManager = userManager;
             _emailSender = emailSender;
+            _configuration = configuration;
+        }
+
+        private async Task<string> GenerateJwtTokenAsync(ApplicationUser user)
+        {
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            var authClaims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            foreach (var role in userRoles)
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            var jwtSettingsKey = _configuration["JWT:Secret"] ?? "TemporaryFallbackSuperSecretKey123456!!!";
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettingsKey));
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JWT:ValidIssuer"],
+                audience: _configuration["JWT:ValidAudience"],
+                expires: DateTime.Now.AddDays(15),
+                claims: authClaims,
+                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
        
@@ -166,10 +203,19 @@ namespace MultiplePlatformServices.BLL.Services
             </div>"
              );
 
+            var roles = await _userManager.GetRolesAsync(user);
+            var role = roles.FirstOrDefault() ?? "User";
+            var token = await GenerateJwtTokenAsync(user);
+
             return new LoginResponse
             {
                 Success = true,
-                Message = "Login Successfully Done"
+                Message = "Login Successfully Done",
+                Token = token,
+                UserId = user.Id,
+                Username = user.UserName,
+                Email = user.Email,
+                Role = role
             };
         }
     }

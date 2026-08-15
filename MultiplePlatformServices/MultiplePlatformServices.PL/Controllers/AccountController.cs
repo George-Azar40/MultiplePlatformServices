@@ -1,4 +1,4 @@
-﻿using Azure.Core;
+using Azure.Core;
 using MultiplePlatformServices.DAL.DTO.Request;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +33,7 @@ namespace MultiplePlatformServices.PL.Controllers
             });
         }
 
-        [HttpGet("login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login(LoginRequest request)
         {
             var result = await _authenticationService.LoginAsync(request);

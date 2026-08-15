@@ -1,11 +1,17 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using MultiplePlatformServices.BLL.Services;
 using MultiplePlatformServices.BLL.Services.Interfaces;
 using MultiplePlatformServices.DAL.Data;
 using MultiplePlatformServices.DAL.Models;
+using MultiplePlatformServices.DAL.Repository;
+using MultiplePlatformServices.DAL.Repository.RepositoryInterfaces;
 using MultiplePlatformServices.DAL.Utilities;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace MultiplePlatformServices.PL
@@ -20,7 +26,10 @@ namespace MultiplePlatformServices.PL
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+            builder.Services.AddOpenApi(options =>
+            {
+                options.AddDocumentTransformer<BearerSecuritySchemeTransformer>();
+            });
 
 
 
@@ -35,8 +44,42 @@ namespace MultiplePlatformServices.PL
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = builder.Configuration["JWT:ValidAudience"],
+                    ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"] ?? "TemporaryFallbackSuperSecretKey123456!!!"))
+                };
+            });
+
             builder.Services.AddTransient<IEmailSender, EmailSender>();
             builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+
+
+            builder.Services.AddScoped<IStoreRepository, StoreRepository>();
+            builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IServiceCategoryRepository, ServiceCategoryRepository>();
+            builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
+            builder.Services.AddScoped<ICartRepository, CartRepository>();
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
+
+            builder.Services.AddScoped<IStoreService, StoreService>();
+           
 
             var app = builder.Build();
 
@@ -48,6 +91,7 @@ namespace MultiplePlatformServices.PL
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

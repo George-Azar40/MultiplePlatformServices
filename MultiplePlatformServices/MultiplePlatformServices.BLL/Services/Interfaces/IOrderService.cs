@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiplePlatformServices.BLL.Services.Interfaces
 {
-    public interface IService
+    public interface IOrderService
     {
     }
 }

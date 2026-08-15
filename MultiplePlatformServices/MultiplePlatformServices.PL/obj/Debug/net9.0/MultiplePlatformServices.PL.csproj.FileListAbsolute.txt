@@ -79,7 +79,6 @@ C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Serv
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\Multiple.CC7358E7.Up2Date
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\MultiplePlatformServices.PL.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\refint\MultiplePlatformServices.PL.dll
@@ -175,3 +174,5 @@ C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Serv
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Mapster.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Mapster.Core.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
