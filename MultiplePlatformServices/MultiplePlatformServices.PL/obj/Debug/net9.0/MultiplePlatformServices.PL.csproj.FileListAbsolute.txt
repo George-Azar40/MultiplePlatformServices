@@ -176,3 +176,4 @@ C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Serv
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Mapster.Core.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\CRC\Desktop\george\Back-end\API\My final Project\Multiple Platform Services\MultiplePlatformServices\MultiplePlatformServices.PL\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

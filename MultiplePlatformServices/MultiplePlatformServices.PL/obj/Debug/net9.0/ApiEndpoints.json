@@ -24,13 +24,39 @@
     "ContainingType": "MultiplePlatformServices.PL.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
         "Type": "MultiplePlatformServices.DAL.DTO.Request.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiplePlatformServices.DAL.DTO.Request.UpdateProfileRequest",
         "IsRequired": true
       }
     ],
@@ -47,6 +73,164 @@
       {
         "Name": "request",
         "Type": "MultiplePlatformServices.DAL.DTO.Request.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AddressController",
+    "Method": "GetAddresses",
+    "RelativePath": "api/Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AddressController",
+    "Method": "CreateAddress",
+    "RelativePath": "api/Address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiplePlatformServices.DAL.DTO.Request.AddressRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AddressController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/Address/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MultiplePlatformServices.DAL.DTO.Request.AddressRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AddressController",
+    "Method": "DeleteAddress",
+    "RelativePath": "api/Address/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.AddressController",
+    "Method": "SetDefault",
+    "RelativePath": "api/Address/{id}/set-default",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.ProductCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.ProductCategoryController",
+    "Method": "Create",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MultiplePlatformServices.DAL.DTO.Request.ProductCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.ProductCategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.ProductCategoryController",
+    "Method": "Update",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MultiplePlatformServices.DAL.DTO.Request.ProductCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiplePlatformServices.PL.Controllers.ProductCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -130,26 +314,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "MultiplePlatformServices.PL.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MultiplePlatformServices.PL.WeatherForecast, MultiplePlatformServices.PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
