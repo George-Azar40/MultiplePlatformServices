@@ -3,8 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\multipleplatformservices.pl.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\multipleplatformservices.pl.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.dal\\dto\\request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|solutionrelative:multipleplatformservices.dal\\dto\\request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.dal\\dto\\request\\updatecartquantityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|solutionrelative:multipleplatformservices.dal\\dto\\request\\updatecartquantityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.dal\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|solutionrelative:multipleplatformservices.dal\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\serviceordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\serviceordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\servicecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\servicecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|solutionrelative:multipleplatformservices.bll\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CA3E296-28F8-40B8-ACAA-35456690E3A3}|MultiplePlatformServices.BLL\\MultiplePlatformServices.BLL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.bll\\services\\interfaces\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.dal\\dto\\request\\servicerequset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A015EA9B-0626-4FCA-BD71-FE6AEBBFEB4B}|MultiplePlatformServices.DAL\\MultiplePlatformServices.DAL.csproj|solutionrelative:multipleplatformservices.dal\\dto\\request\\servicerequset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|c:\\users\\crc\\desktop\\george\\back-end\\api\\my final project\\multiple platform services\\multipleplatformservices\\multipleplatformservices.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3C3B6E-F2AE-4648-B998-F675A3D75D7C}|MultiplePlatformServices.PL\\MultiplePlatformServices.PL.csproj|solutionrelative:multipleplatformservices.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,20 +122,280 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiplePlatformServices.PL.http",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\MultiplePlatformServices.PL.http",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\MultiplePlatformServices.PL.http",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\MultiplePlatformServices.PL.http",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\MultiplePlatformServices.PL.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-21T14:33:24.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\CartService.cs",
+              "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\CartService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:07:23.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\DTO\\Request\\CartRequest.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\DTO\\Request\\CartRequest.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\DTO\\Request\\CartRequest.cs",
+              "RelativeToolTip": "MultiplePlatformServices.DAL\\DTO\\Request\\CartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:06:51.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:09.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Program.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Program.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T13:40:42.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwEgAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAcwPcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T13:49:33.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "UpdateCartQuantityRequest.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\DTO\\Request\\UpdateCartQuantityRequest.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\DTO\\Request\\UpdateCartQuantityRequest.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\DTO\\Request\\UpdateCartQuantityRequest.cs",
+              "RelativeToolTip": "MultiplePlatformServices.DAL\\DTO\\Request\\UpdateCartQuantityRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:23:06.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\Models\\Cart.cs",
+              "RelativeToolTip": "MultiplePlatformServices.DAL\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:09:26.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:06:18.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:06:17.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceOrderController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ServiceOrderController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceOrderController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ServiceOrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:36.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceCategoryController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ServiceCategoryController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceCategoryController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ServiceCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:34.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T13:59:34.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:29.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:28.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T13:18:40.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ProductCategoryController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ProductCategoryController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ProductCategoryController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ProductCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:27.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:12.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:10.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\AddressController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:06.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T14:00:04.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "IAddressService.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\IAddressService.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IAddressService.cs",
@@ -71,12 +403,11 @@
               "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IAddressService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:49:31.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:49:31.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 22,
               "Title": "IServiceService.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\Interfaces\\IServiceService.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IServiceService.cs",
@@ -84,12 +415,11 @@
               "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\Interfaces\\IServiceService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:22:33.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:22:33.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "ServiceService.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.BLL\\Services\\ServiceService.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.BLL\\Services\\ServiceService.cs",
@@ -97,25 +427,11 @@
               "RelativeToolTip": "MultiplePlatformServices.BLL\\Services\\ServiceService.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAowD4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:24:24.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:24:24.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "MultiplePlatformServices.PL\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:18:40.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\Models\\ApplicationUser.cs",
@@ -123,12 +439,11 @@
               "RelativeToolTip": "MultiplePlatformServices.DAL\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:49:11.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:49:11.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\Models\\Address.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\Models\\Address.cs",
@@ -136,12 +451,11 @@
               "RelativeToolTip": "MultiplePlatformServices.DAL\\Models\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:49:14.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:49:14.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
               "Title": "ServiceRequset.cs",
               "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.DAL\\DTO\\Request\\ServiceRequset.cs",
               "RelativeDocumentMoniker": "MultiplePlatformServices.DAL\\DTO\\Request\\ServiceRequset.cs",
@@ -149,21 +463,7 @@
               "RelativeToolTip": "MultiplePlatformServices.DAL\\DTO\\Request\\ServiceRequset.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:32:19.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Program.cs",
-              "RelativeDocumentMoniker": "MultiplePlatformServices.PL\\Program.cs",
-              "ToolTip": "C:\\Users\\CRC\\Desktop\\george\\Back-end\\API\\My final Project\\Multiple Platform Services\\MultiplePlatformServices\\MultiplePlatformServices.PL\\Program.cs",
-              "RelativeToolTip": "MultiplePlatformServices.PL\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAQwFcAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T13:40:42.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T13:32:19.923Z"
             }
           ]
         }

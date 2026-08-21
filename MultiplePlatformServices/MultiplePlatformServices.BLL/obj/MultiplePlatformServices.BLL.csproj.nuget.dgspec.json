@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[10.0.11, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.12, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.22.0, )"

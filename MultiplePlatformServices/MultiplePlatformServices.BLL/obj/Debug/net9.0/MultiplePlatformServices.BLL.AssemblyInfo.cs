@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiplePlatformServices.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed1afe79a75394f4caebdadf1c2ef8ee442ead6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+038f0e88cc3f07e251292faf2f0d2f922c32ecf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiplePlatformServices.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiplePlatformServices.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

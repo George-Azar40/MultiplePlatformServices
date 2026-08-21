@@ -69,6 +69,9 @@ namespace MultiplePlatformServices.PL
             builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 
+            builder.Services.AddHttpContextAccessor();
+
+
             builder.Services.AddScoped<IStoreRepository, StoreRepository>();
             builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -86,7 +89,11 @@ namespace MultiplePlatformServices.PL
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<IServiceCategoryService, ServiceCategoryService>();
             builder.Services.AddScoped<IServiceService,ServiceService>();
-           
+            builder.Services.AddScoped<ICartService, CartService>();
+
+
+
+
 
             var app = builder.Build();
 
