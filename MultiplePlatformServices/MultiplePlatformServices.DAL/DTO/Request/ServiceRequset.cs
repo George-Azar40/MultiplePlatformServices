@@ -1,3 +1,4 @@
+using MultiplePlatformServices.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,6 @@ namespace MultiplePlatformServices.DAL.DTO.Request
         public string? Image { get; set; }
         public bool IsActive { get; set; } = true;
         public int ServiceCategoryId { get; set; }
+        public string FreelancerId { get; set; }
     }
 }
