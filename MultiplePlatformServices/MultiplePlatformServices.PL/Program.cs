@@ -84,6 +84,7 @@ namespace MultiplePlatformServices.PL
             builder.Services.AddScoped<IAddressService, AddressService>();
             builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IServiceCategoryService, ServiceCategoryService>();
            
 
             var app = builder.Build();
